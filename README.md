@@ -2,21 +2,21 @@
 
 ##젬 설치
 
-###/Gemfile
+### Gemfile
 ```
 gem "pry-rails"
 gem "awesome_print"
 gem "faker"
 ```
 
-###/.pryrc
+### .pryrc
 ```
 # .pryrc
 require "awesome_print"
 AwesomePrint.pry!
 ```
 
-###terminal
+### terminal
 ```
 rails c
 ```
