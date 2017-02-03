@@ -3,7 +3,7 @@
 ##젬 설치
 
 ### Gemfile
-```
+```ruby
 gem "pry-rails"
 gem "awesome_print"
 gem "faker"
@@ -17,12 +17,12 @@ AwesomePrint.pry!
 ```
 
 ### terminal
-```
+```bash
 rails c
 ```
 ### Faker
-[faker gem github으로 이동](https://github.com/stympy/faker)
+[stympy/faker](https://github.com/stympy/faker)
 ```ruby
-Faker::Internet.free_email #=> "freddy@gmail.com"
+Faker::Internet.free_email   #=> "freddy@gmail.com"
 Faker::Name.name             #=> "Tyshawn Johns Sr."
 ```
