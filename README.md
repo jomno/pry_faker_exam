@@ -20,8 +20,8 @@ AwesomePrint.pry!
 ```
 rails c
 ```
-### faker
-[faker](https://github.com/stympy/faker)
+### Faker
+[faker gem github으로 이동](https://github.com/stympy/faker)
 ```ruby
 Faker::Internet.free_email #=> "freddy@gmail.com"
 Faker::Name.name             #=> "Tyshawn Johns Sr."
