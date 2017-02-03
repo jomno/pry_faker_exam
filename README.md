@@ -20,3 +20,9 @@ AwesomePrint.pry!
 ```
 rails c
 ```
+### faker
+[faker](https://github.com/stympy/faker)
+```ruby
+Faker::Internet.free_email #=> "freddy@gmail.com"
+Faker::Name.name             #=> "Tyshawn Johns Sr."
+```
